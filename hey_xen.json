@@ -2,6 +2,7 @@
     "type": "micro",
     "wake_word": "Hey Xen",
     "author": "Willem Govaerts",
+    "website": "https://www.kevinahrendt.com/",
     "model": "./hey_xen.tflite",
     "version": 1,
     "micro": {

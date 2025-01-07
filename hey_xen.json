@@ -1,14 +1,11 @@
 {
     "type": "micro",
-    "wake_word": "hey xen",
+    "wake_word": "Hey Xen",
     "author": "Willem Govaerts",
-    "model": "stream_state_internal_quant.tflite",
+    "model": "./hey_xen.tflite",
     "version": 1,
     "micro": {
-      "probability_cutoff": 0.81,
-      "sliding_window_size": 5,
-      "feature_step_size": 10,
-      "tensor_arena_size": 22860,
-      "minimum_esphome_version": "2024.7"
+      "probability_cutoff": 0.8,
+      "sliding_window_average_size": 10
     }
   }

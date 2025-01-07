@@ -4,6 +4,7 @@
     "author": "Willem Govaerts",
     "website": "https://www.kevinahrendt.com/",
     "model": "./hey_xen.tflite",
+    "trained_languages": ["en"],
     "version": 1,
     "micro": {
       "probability_cutoff": 0.81,
